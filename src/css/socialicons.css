@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+[data-icon]:before {
+  font-family: "social-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "social-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\61";
+}
+.icon-youtube:before {
+  content: "\62";
+}
+.icon-instagram:before {
+  content: "\63";
+}
+.icon-facebook:before {
+  content: "\64";
+}
+.icon-vine:before {
+  content: "\65";
+}
+.icon-triangle-left:before {
+  content: "\66";
+}
+.icon-triangle-right:before {
+  content: "\67";
+}
+.icon-tumblr:before {
+  content: "\68";
+}
+.icon-google-plus:before {
+  content: "\69";
+}
+.icon-snapchat:before {
+  content: "\6a";
+}
+.icon-pinterest:before {
+  content: "\6c";
+}
+.icon-mail:before {
+  content: "\6b";
+}
+.icon-map:before {
+  content: "\6d";
+}
+.icon-phone:before {
+  content: "\6e";
+}
+.icon-twitter-1:before {
+  content: "\6f";
+}
+.icon-social-facebook:before {
+  content: "\71";
+}
+.icon-share:before {
+  content: "\70";
+}
